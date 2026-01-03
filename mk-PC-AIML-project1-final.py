@@ -1,5 +1,5 @@
 
-# Mudhassir Khan:
+# Mudhassir Khan
 
 # Course-end Project 1: Analyzing Customer Orders Using Python
 
