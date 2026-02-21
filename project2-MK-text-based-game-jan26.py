@@ -1,6 +1,9 @@
+
+# Mudhassir Khan
+
+# Course-end Project 2: Text Based Adventure Game
+
 """
-Mudhassir Khan
-TEXT-BASED ADVENTURE GAME
 Overview
 In this project, you will build a text-based adventure game using Python and GitHub Copilot.
 The game will allow users to explore different locations, make choices, and complete a simple quest, 
@@ -427,10 +430,10 @@ def play_game() -> None:
                     print("\n" + "="*60)
                     print("GAME WON! You have saved the kingdom!")
                     print("="*60)
+                        print("\n❌ GAME OVER! You were defeated!")
                     game_running = False
                 else:
                     if player.health <= 0:
-                        print("\n❌ GAME OVER! You were defeated!")
                         game_running = False
             else:
                 print("There are no quests available at this location.")
